@@ -127,3 +127,7 @@ Route::get('/', function () {
 
     return view('home',compact('comics'));
 })->name('home');
+
+Route::get('/details', function () {
+    return view('details');
+})->name('details');
