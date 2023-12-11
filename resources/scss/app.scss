@@ -1,1 +1,24 @@
+@use './partials/var' as *;
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+@import './partials/header';
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
