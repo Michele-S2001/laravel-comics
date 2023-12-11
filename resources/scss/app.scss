@@ -1,8 +1,9 @@
 @use './partials/var' as *;
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
 @import './partials/header';
+@import './partials/footer';
 
 body {
   font-family: 'Oswald', sans-serif;
