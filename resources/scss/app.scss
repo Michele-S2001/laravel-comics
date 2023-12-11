@@ -4,6 +4,7 @@
 
 @import './partials/header';
 @import './partials/footer';
+@import './partials/home';
 
 body {
   font-family: 'Oswald', sans-serif;
@@ -17,6 +18,11 @@ a {
 ul, ol {
   list-style: none;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 input {
