@@ -12,7 +12,7 @@
 
   <nav class="nav-section py-3">
     <div class="container">
-      <div class="row align-items-baseline justify-content-between">
+      <div class="row align-items-center justify-content-between">
         {{-- logo --}}
         <div class="col-auto">
           <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc logo">
