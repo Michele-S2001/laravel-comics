@@ -2,16 +2,33 @@
   color: $grey;
   font-weight: 300;
 
-  li {
-    font-size: 16px;
-    text-transform: capitalize;
+  .footer-links {
+    li {
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+  
+    .terms-policy {
+      font-size: 15px;
+      letter-spacing: 2px;
+  
+      span {
+        color: $blue;
+      }
+    }
   }
 
-  .terms-policy {
-    font-size: 15px;
-    letter-spacing: 2px;
+  .footer-contacts {
+    background-color: $darkGrey;
 
-    span {
+    .sign-up {
+      font-weight: 400;
+      font-size: 20px;
+      border: 2px solid $blue;
+      padding: 10px 15px;
+    }
+
+    .follow {
       color: $blue;
     }
   }

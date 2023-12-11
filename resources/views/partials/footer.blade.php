@@ -113,5 +113,25 @@
       </div>
     </div>
   </section>
+
+  <section class="footer-contacts py-5">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto">
+          <a class="sign-up text-light text-uppercase" href="#">sign up now!</a>
+        </div>
+        <div class="col-auto">
+          <div class="socials d-flex align-items-center gap-3">
+            <span class="follow text-uppercase fw-bold fs-4">follow us</span>
+            <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook social">
+            <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope social">
+            <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest social">
+            <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter social">
+            <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube social">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
 </footer>
